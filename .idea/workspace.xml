@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf6b6e7-2c33-4eca-870b-22aa0ca0cd6e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sockets/KnockFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sockets/KnockFun.java" afterDir="false" />
-    </list>
+    <list default="true" id="9cf6b6e7-2c33-4eca-870b-22aa0ca0cd6e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
