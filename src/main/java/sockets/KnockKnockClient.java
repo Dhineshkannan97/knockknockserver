@@ -7,6 +7,7 @@ import java.net.UnknownHostException;
 
 public class KnockKnockClient {
     public static void main(String[] args) {
+//        while (true){
         try {
             Socket kkSocket = new Socket("localhost", 4444);
             PrintStream os = new PrintStream(kkSocket.getOutputStream());
@@ -37,4 +38,4 @@ public class KnockKnockClient {
             System.err.println("Exception:  "+e);
         }
     }
-}
+    }

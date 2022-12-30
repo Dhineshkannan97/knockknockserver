@@ -5,8 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class knockKnockServer {
-    public static void main(String args[]) throws IOException {
-
+    public static void main(String args[])  {
 
         ServerSocket serverSocket = null;
         try {
@@ -16,6 +15,7 @@ public class knockKnockServer {
             System.exit(1);
         }
         Socket clientSocket = null;
+        while (true){
         try {
             clientSocket = serverSocket.accept();
         } catch (IOException e) {
@@ -46,12 +46,12 @@ public class knockKnockServer {
             }
             os.close();
             is.close();
-            clientSocket.close();
-            serverSocket.close();
-
+//            clientSocket.close();
+//            serverSocket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
+}}
     }
-}
+
 

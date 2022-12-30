@@ -1,4 +1,5 @@
 package sockets;
+
 import java.io.IOException;
 
 public class KnockFun {
@@ -38,10 +39,8 @@ public class KnockFun {
                 theOutput = "<html>" +
                         "<body>" +
                         "<p>" +
-                        answers[currentJoke] + "<p>" + "</body>" + "</html>";
-//                    " Want another? (y/n)"
+                        answers[currentJoke] + "<p>" + "</body>" + "</html>" + " Want another? (y/n)";
                 state = ANOTHER;
-                System.out.println(theOutput);
             } else {
                 theOutput = "You're supposed to say \"" + clues[currentJoke] + " who?\"" + "! Try again. Knock Knock!";
                 state = SENTKNOCKKNOCK;
